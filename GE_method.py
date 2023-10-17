@@ -9,7 +9,7 @@ def gaussian_elimination(A, b):
     augmented_matrix = np.column_stack((A, b))
     print(augmented_matrix)
 
-        # Forward elimination
+    # Forward elimination
     for i in range(n):
         max_row = i
         for k in range(i+1, n):
@@ -33,7 +33,6 @@ def gaussian_elimination(A, b):
     
     return x
 
-# Example usage:
 A = np.array([[1, 2, -1],
               [2, 1, 1],
               [-1, 0, 1]])
@@ -41,4 +40,10 @@ A = np.array([[1, 2, -1],
 b = np.array([2, 7, 2])
 
 x = gaussian_elimination(A, b)
-print("The values of the vector is \n",x)
+print("Solution:", x)
+
+# Inbuilt function just in case if ur lazy
+# x = np.linalg.solve(A, b)
+
+print("Solution for x:")
+print(x)
