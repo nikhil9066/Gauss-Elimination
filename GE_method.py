@@ -17,7 +17,7 @@ def gaussian_elimination(A, b):
                 max_row = k
         
         augmented_matrix[[i, max_row]] = augmented_matrix[[max_row, i]]
-        
+
         augmented_matrix[i] /= augmented_matrix[i, i]
         
         # Eliminate all other entries in the current column
