@@ -13,3 +13,11 @@ print(A)
 b = np.zeros(n)
 b[49] = 1 
 print(b)
+
+def gaussElimination(A, b):
+    n = len(b)
+    x = np.zeros(n)
+    print("Matrix A:\n", A)
+    print("Vector b:\n", b)
+
+x = gaussElimination(A, b)
