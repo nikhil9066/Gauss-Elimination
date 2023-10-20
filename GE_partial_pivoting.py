@@ -21,3 +21,4 @@ def gaussElimination(A, b):
     print("Vector b:\n", b)
 
 x = gaussElimination(A, b)
+print("Printing the x value")
