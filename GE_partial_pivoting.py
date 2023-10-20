@@ -17,7 +17,11 @@ print(b)
 def gaussElimination(A, b):
     n = len(b)
     x = np.zeros(n)
-    print("Matrix A:\n", A)
-    print("Vector b:\n", b)
+    # print("Matrix A:\n", A)
+    # print("Vector b:\n", b)
+
+    x[-1] = b[-1] / A[-1, -1]
+    for i in range(n - 2, -1, -1):
+        x[i] = (b[i] - np.dot(A[i, i + 1:], x[i + 1:])) / A[i, i]
 
 x = gaussElimination(A, b)
