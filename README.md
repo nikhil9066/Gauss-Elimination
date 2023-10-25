@@ -26,7 +26,7 @@ Gaussian Elimination is a fundamental numerical method used for solving systems 
 - Well-documented code for understanding and customization.
 
 * Solving Linear Systems
-  - This code repository includes a function/code (part (a)) that can be used to solve linear systems of the form A x<sup>&rarr;</sup>  = ⃗b<sup>&rarr;</sup> , where A = (aij) and ⃗b<sup>&rarr;</sup> = (bj). In the context of this problem, A is a tridiagonal matrix with specific values, and ⃗b<sup>&rarr;</sup> is a vector with specific components.
+  - This code repository includes a function/code (part (a)) that can be used to solve linear systems of the form A x<sup>&rarr;</sup>  = b<sup>&rarr;</sup>, where A = (aij) and b<sup>&rarr;</sup> = (bj). In the context of this problem, A is a tridiagonal matrix with specific values, and b<sup>&rarr;</sup> is a vector with specific components.
 
 ## Prerequisites
 
@@ -60,7 +60,7 @@ b = [8, 7, 15]
 #Use the Gaussian Elimination function to solve the system
 solution = gauss_elimination(A, b)
 
-#Find the solution for ⃗x.
+#Find the solution for x.
 ```
 
 ## Problem_Statement_2
@@ -76,15 +76,15 @@ Where:
     - aij = 5 if i = j
     - aij = aj,j−1 = aj,j+1 = 1 if i = j ± 1
   - All other elements aij and bj are set to 0.
-- ⃗b is a 100-dimensional vector with bj = 1 for j = 50, and bj = 0 for all other values of j.
+- b is a 100-dimensional vector with bj = 1 for j = 50, and bj = 0 for all other values of j.
 '
 
 
 ## Solution
 
-The solution vector ⃗x<sup>&rarr;</sup> = (xj) will be computed using the provided function/code. This solution vector will be plotted as a function of j to visualize the results.
+The solution vector x<sup>&rarr;</sup> = (xj) will be computed using the provided function/code. This solution vector will be plotted as a function of j to visualize the results.
 
-You can run the code to solve this linear system and generate the plot of the solution vector ⃗x<sup>&rarr;</sup>.
+You can run the code to solve this linear system and generate the plot of the solution vector x<sup>&rarr;</sup>.
 
 ## Usage
  Just run the code its all built in.
