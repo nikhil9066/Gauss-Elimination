@@ -91,8 +91,8 @@ You can run the code to solve this linear system and generate the plot of the so
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-Fork the repository.
-Create a new branch with a descriptive name.
-Make your changes.
-Test your changes.
-Create a pull request, explaining your changes.
+- Fork the repository.
+- Create a new branch with a descriptive name.
+- Make your changes.
+- Test your changes.
+- Create a pull request, explaining your changes.
