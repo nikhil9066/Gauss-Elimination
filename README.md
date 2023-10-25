@@ -1,6 +1,6 @@
 # Gaussian Elimination
 
-- Gauss elimination is a method for solving systems of linear equations by repeatedly eliminating variables until a single variable remains, which can then be solved for.
+- Gauss elimination is a method for solving systems of linear equations by repeatedly eliminating variables until a single variable remains, which can then be solved.
 - This is a Python implementation of the Gaussian Elimination algorithm for solving systems of linear equations.
 
 ## Table of Contents
@@ -13,7 +13,6 @@
 - [Solution](#solution)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -87,7 +86,7 @@ The solution vector x<sup>&rarr;</sup> = (xj) will be computed using the provide
 You can run the code to solve this linear system and generate the plot of the solution vector x<sup>&rarr;</sup>.
 
 ## Usage
- Just run the code its all built in.
+ Just run the code it's all built-in.
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
@@ -97,6 +96,3 @@ Create a new branch with a descriptive name.
 Make your changes.
 Test your changes.
 Create a pull request, explaining your changes.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
