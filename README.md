@@ -26,7 +26,7 @@ Gaussian Elimination is a fundamental numerical method used for solving systems 
 - Well-documented code for understanding and customization.
 
 * Solving Linear Systems
-  - This code repository includes a function/code (part (a)) that can be used to solve linear systems of the form A⃗x = ⃗b, where A = (aij) and ⃗b = (bj). In the context of this problem, A is a tridiagonal matrix with specific values, and ⃗b is a vector with specific components.
+  - This code repository includes a function/code (part (a)) that can be used to solve linear systems of the form A x<sup>&rarr;</sup>  = ⃗b<sup>&rarr;</sup> , where A = (aij) and ⃗b<sup>&rarr;</sup> = (bj). In the context of this problem, A is a tridiagonal matrix with specific values, and ⃗b<sup>&rarr;</sup> is a vector with specific components.
 
 ## Prerequisites
 
@@ -44,7 +44,7 @@ pip install pandas
 ```
 
 ## Problem_Statement_1
-# Gauss elimination using partial pivoting
+### Gauss elimination using partial pivoting
 
 Solve the following linear system using the provided function/code:
 ```
@@ -64,11 +64,11 @@ solution = gauss_elimination(A, b)
 ```
 
 ## Problem_Statement_2
-# Gauss elimination using partial pivoting
+### Gauss elimination using partial pivoting
 
 Solve the following linear system using the provided function/code:
 '
-A⃗x = ⃗b
+A x<sup>&rarr;</sup> = b<sup>&rarr;</sup>
 
 Where:
 - A is a 100x100 matrix with a special structure:
@@ -82,9 +82,9 @@ Where:
 
 ## Solution
 
-The solution vector ⃗x = (xj) will be computed using the provided function/code. This solution vector will be plotted as a function of j to visualize the results.
+The solution vector ⃗x<sup>&rarr;</sup> = (xj) will be computed using the provided function/code. This solution vector will be plotted as a function of j to visualize the results.
 
-You can run the code to solve this linear system and generate the plot of the solution vector ⃗x.
+You can run the code to solve this linear system and generate the plot of the solution vector ⃗x<sup>&rarr;</sup>.
 
 ## Usage
  Just run the code its all built in.
