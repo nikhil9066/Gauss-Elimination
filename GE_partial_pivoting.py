@@ -36,3 +36,13 @@ def gaussElimination(A, b):
     return xA[i, i]
 
 x = gaussElimination(A, b)
+# print(f"Solution vector x:\n{x}")
+
+j_values = np.arange(1, n + 1)
+# print((x))
+plt.plot(j_values, x)
+plt.xlabel('j')
+plt.ylabel('x[j]')
+plt.title('Solution Vector x[j] as a Function of j')
+plt.grid(True)
+plt.show()
