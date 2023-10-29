@@ -84,6 +84,7 @@ Where:
 The solution vector x<sup>&rarr;</sup> = (xj) will be computed using the provided function/code. This solution vector will be plotted as a function of j to visualize the results.
 
 You can run the code to solve this linear system and generate the plot of the solution vector x<sup>&rarr;</sup>.
+![Figure_1](https://github.com/nikhil9066/Gauss-Elimination/assets/36182930/cc991b2f-90fd-4625-8cf0-839b10b40898)
 
 ## Usage
  Just run the code it's all built-in.
